@@ -51,7 +51,17 @@ xmlHttp.onreadystatechange = function () {
         slideShadows: false,
       },
 
-      slidesPerView: "auto",
+      slidesPerView: 1,
+      breakpoints: {
+        
+        768: {
+          slidesPerView: 2,  //브라우저가 768보다 클 때
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 3,  //브라우저가 1024보다 클 때
+          spaceBetween: 50,
+        }},
       grabCursor: true,
       centeredSlides: true,
       speed: 1000,

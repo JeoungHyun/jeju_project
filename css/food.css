@@ -116,17 +116,25 @@ a{
 .wrap .swiper-wrapper .swiper-slide .inner .con{
     position: relative;
     z-index: 10;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .wrap .swiper-wrapper .swiper-slide .inner img{
-    width: 430px;
+    width: 410px;
     height: 330px;
+}
+@media (max-width: 800px) {
+    .wrap .swiper-wrapper .swiper-slide .inner img{
+        width: 330px;
+        height: 330px;
+  }
 }
 
 .wrap .swiper-wrapper .swiper-slide .inner .con h2{
     font-weight: normal;
     font-size: 40px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Smooch Sans', sans-serif;
     color: #111;
     margin-top: 15px;
     margin-bottom: 20px;
