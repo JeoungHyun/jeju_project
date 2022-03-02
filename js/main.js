@@ -3,7 +3,7 @@ let linktarget = document.querySelectorAll(".small-text > a");
 
 linktarget.forEach((item,index)=>{
     item.addEventListener('mouseover',(event)=>{
-        item.style.color="blue";
+        item.style.color="rgb(109, 169, 224)";
     })
     item.addEventListener('mouseout',(event)=>{
         item.style.color="white";
@@ -14,7 +14,7 @@ linktarget.forEach((item,index)=>{
 
 
 function randomString() {
-  let stringArr = ["Let'Go Jeju !", "Welcome to Jeju !", "I Like Jeju !"];
+  let stringArr = ["Let'Go Jeju !","I Like Jeju !"];
 
   let newNumber = Math.floor(Math.random() * stringArr.length);
   let selectString = stringArr[newNumber];
