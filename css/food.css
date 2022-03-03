@@ -14,7 +14,8 @@ a{
     overflow: hidden;
     position: relative;
     box-sizing: border-box;
-    background: linear-gradient(45deg,#f1b715,#c09e80e3)
+    background: linear-gradient(0deg,#f1b715,#c09e80e3) 
+    /* background: linear-gradient(0deg,#c5e8ec,#24b6e2e3) */
 }
 .wrap h1{
     font-weight: normal;
